@@ -14,7 +14,8 @@ body {background:rgb(124, 134, 189);}
 }
 
 header {
-	width: 90%;
+	width: 100%;
+	
 }
 
 header nav {
@@ -22,7 +23,8 @@ header nav {
 	z-index:1000;
 	max-width: 90%;
 	width:95%;
-    margin:20px auto;
+	
+    margin:0%;
     
 }
 
@@ -88,8 +90,11 @@ header nav ul li .caret {
 }
 body {
     width: 90%;
-    margin : 0 auto;
-   
+	margin :0 auto;
+	
+
+	 padding-left:  2%;
+
   }
   
   h1 {
