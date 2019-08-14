@@ -1,154 +1,31 @@
-@media screen and (  max-width: 1024px) 
+@media screen and (  max-width: 1024px ) 
 {
 
-	* {
-		padding:0;
-		margin:0;
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	
-	body {background:rgb(124, 134, 189);}
-	
-	.menu_bar {
-		display:none;
-	}
-	
-	header {
-		width: 100%;
-	}
-	
 	header nav {
-		background:#05263a;
-		z-index:1000;
-		max-width: 100%;
-		width:95%;
-		margin:20px auto;
 		
+		max-width:100%;
+		
+		margin:20px auto;
 	}
 	
-	header nav ul {
-		list-style:none;
-	}
-	
-	header nav ul li {
-		display:inline-block;
-		position: relative;
-	}
-	
-	header nav ul li:hover {
-		background:#2816fe;
-	}
 	
 	header nav ul li a {
-		color:#fff;
-		display:block;
-		text-decoration:none;
-		padding: 3px;
+		
+		
+		padding: 1px;
 	}
 	
-	header nav ul li a span {
-		margin-right:10px;
-	}
-	
-	header nav ul li:hover .children {
-		display:block;
-	}
-	
-	header nav ul li .children {
-		display: none;
-		background:#011826;
-		position: absolute;
-		width: 90%;
-		z-index:1000;
-	}
-	
-	header nav ul li .children li {
-		display:block;
-		overflow: hidden;
-		border-bottom: 1px solid rgba(255,255,255,.5);
-	}
-	
-	header nav ul li .children li a {
-		display: block;
-	}
-	
-	header nav ul li .children li a span {
-		float: right;
-		position: relative;
-		top:3px;
-		margin-right:0;
-		margin-left:10px;
-	}
-	
-	header nav ul li .caret {
-		position: relative;
-		top:3px;
-		margin-left:10px;
-		margin-right:0px;
-	}
-	body {
-		width: 90%;
-		margin : 0 auto;
-	   
-	  }
-	  
-	  h1 {
-		text-align: center;
-	  }
-	 
-	  .datos, .principal {
-		float: left;
-		padding: 0;
-		margin: 0;
-	  }
-	  
-	  .datos {
-	   width: 20%;
-	  }
-	  
-	  .principal {
-		width: 60%;
-	  }
-	  
-	  .foote
-	  {
-		float: left;
-		width: 100%;
-	  }
-	  
-	
-	 
-		.foote ul {
-			list-style: none;
-		}
 	 
 		.foote ul li a {
-			display: inline-block;
-			color:#fff;
-			background: #000;
-			padding: 20px 60px;
-			text-decoration: none;
-			-webkit-transition:all 500ms ease;
-			-o-transition:all 500ms ease;
-			transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
-		}
-	 
-		.foote ul li .ion-social-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
-		.foote ul li .ion-social-twitter {background: #00abf0;}
-		.foote ul li .ion-social-whatsapp-outline {background: #128a07;}
-		.foote ul li .ion-social-youtube {background: #ae181f;}
-		
-	 
-		.foote ul li a:hover {
-			background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
-			padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
-		}
-		body {
-			width: 100%;
-			margin :0 auto;
 			
+		
+			padding: 20px 52px;
+			
+		}
+	 
+	
+	
+		body {
 		
 			 padding-left:  10%;
 			 padding-right: 10%;

@@ -1,9 +1,7 @@
 
 * {
 	padding:0;
-	margin:0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+
 	box-sizing: border-box;
 }
 
@@ -22,7 +20,7 @@ header nav {
 	background:#05263a;
 	z-index:1000;
 	max-width: 90%;
-	width:95%;
+	
 	
     margin:0%;
     
@@ -91,8 +89,7 @@ header nav ul li .caret {
 
 body {
     width: 100%;
-	margin :0 auto;
-	
+
 
 	 padding-left:  15%;
     
