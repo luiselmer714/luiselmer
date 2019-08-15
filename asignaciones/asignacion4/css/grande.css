@@ -13,17 +13,13 @@ body {background:rgb(124, 134, 189);}
 
 header {
 	width: 90%;
-	
 }
 
 header nav {
 	background:#05263a;
 	z-index:1000;
 	max-width: 90%;
-	
-	
     margin:0%;
-    
 }
 
 header nav ul {
@@ -147,3 +143,7 @@ body {
 		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
 		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
 	}
+
+
+
+

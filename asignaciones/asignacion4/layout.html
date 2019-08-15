@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
+   
     <link rel="StyleSheet" href="css/normalize.css"  type="text/css"> 
     <link rel="StyleSheet" href="css/grande.css"  type="text/css"> 
     <link rel="StyleSheet" href="css/mediano.css"  type="text/css">  
     <link rel="StyleSheet" href="css/pequeño.css"  type="text/css">  
     
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  
-
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/movimiento.js"></script>
+   
 </head>
 <body>
         <header>
@@ -29,26 +31,26 @@
                         <li><a href="#"><span class="icon-house"></span>Inicio</a></li>
                         <li><a href="#"><span class="icon-suitcase"></span>Trabajos</a></li>
                         <li class="submenu">
-                            <a href="#"><span class="icon-rocket"></span>informacion<span class="caret icon-arrow-down6"></span></a>
+                            <a href="#"><span class="icon-rocket"></span>Informacion<span class="caret icon-arrow-down6"></span></a>
                             <ul class="children">
-                                <li><a href="#">los lugares mas visitados <span class="icon-dot"></span></a></li>
-                                <li><a href="#">el clima actual <span class="icon-dot"></span></a></li>
-                                <li><a href="#">gastronomia <span class="icon-dot"></span></a></li>
-                                <li><a href="#">flora y fauna <span class="icon-dot"></span></a></li>
+                                <li><a href="#">Los lugares mas visitados <span class="icon-dot"></span></a></li>
+                                <li><a href="#">El clima actual <span class="icon-dot"></span></a></li>
+                                <li><a href="#">Gastronomia <span class="icon-dot"></span></a></li>
+                                <li><a href="#">Flora y fauna <span class="icon-dot"></span></a></li>
                             </ul>
                         </li>
-                        <li><a href="#"><span class="icon-earth"></span>noticias</a></li>
+                        <li><a href="#"><span class="icon-earth"></span>Noticias</a></li>
                         <li class="submenu">
-                                <a href="#"><span class="icon-rocket"></span>lugares<span class="caret icon-arrow-down6"></span></a>
+                                <a href="#"><span class="icon-rocket"></span>Lugares<span class="caret icon-arrow-down6"></span></a>
                                 <ul class="children">
-                                    <li><a href="#">torotoro <span class="icon-dot"></span></a></li>
-                                    <li><a href="#">cochabamba <span class="icon-dot"></span></a></li>
+                                    <li><a href="#">Torotoro <span class="icon-dot"></span></a></li>
+                                    <li><a href="#">Cochabamba <span class="icon-dot"></span></a></li>
                                
                                 </ul>
                             </li>
-                        <li><a href="#"><span class="icon-mail"></span>contacto</a></li>
-                        <li><a href="#"><span class="icon-mail"></span>reserva</a></li>
-                        <li><a href="#"><span class="icon-mail"></span>galeria</a></li>
+                        <li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+                        <li><a href="#"><span class="icon-mail"></span>Reserva</a></li>
+                        <li><a href="#"><span class="icon-mail"></span>Galeria</a></li>
                      
                     </ul>
                 </nav>
@@ -57,20 +59,20 @@
 
 
     <main class="principal">
-            <h1>aserca de la pagina  <ion-icon ios="ios-menu" md="md-menu"></ion-icon></h1>
+            <h1>Acerca de la pagina  <ion-icon ios="ios-menu" md="md-menu"></ion-icon></h1>
             <ion-icon name="menu"></ion-icon>
         <article>
                 <h2>Bienvenidos a los mejores
-                        Paquetes turísticos de Bolivia</h2>
+                        paquetes turísticos de Bolivia</h2>
                 <p>
                         
                         Todo lo que necesita saber para su viaje!!!
-                        La agencia de viajes LLER TURISTEC, les da la bienvenida a nuestro sitio web, donde usted podrá encontrar todo referente a los tours en Bolivia, Perú y Chile. Nos especializamos a realizar itinerarios hechos a su medida, usted puede comunicarse con nosotros y ponerse en contacto con nuestro equipo para otorgarle un servicio profesional donde le ayudaremos a planificar su viaje.
+                        La agencia de viajes PLLER TURISTEC, les da la bienvenida a nuestro sitio web, donde usted podrá encontrar todo referente a los tours en Bolivia, Perú y Chile. Nos especializamos a realizar itinerarios hechos a su medida, usted puede comunicarse con nosotros y ponerse en contacto con nuestro equipo para otorgarle un servicio profesional donde le ayudaremos a planificar su viaje.
                 </p>
         </article>
      
         <article>
-                <h2> TODOS LOS DERECHOS RESERVADOS</h2>
+                <h2> Todos los derechos reservados</h2>
                <p>
                     www.pllerturistec.com
                     Está terminantemente PROHIBIDO usar los programas turísticos expuestos en este Sitio para fines de lucro o copiar para añadir a otras Páginas sin autorización previa de la empresa Turismo pller turistec. Si usted desea algún programa o fotografía deberá solicitar la autorización de gerencia para publicar en vuestra página web, y deberá incluir junto con la foto o los programas turísticos las iniciales pller.
@@ -83,11 +85,12 @@
     </main>
     <aside class="datos">
             <h2>Bienvenido ala agencia pller turistec</h2>
+             <img src="imagenes/turista.PNG" alt="Smiley face" width="250" height="260">
     </aside>
               
     <footer class="foote">
         <ul>
-            <li>nos puede contactar por las redes sociales
+            <li>Nos puede contactar por las redes sociales
             <li>
                     <a class="ion-social-facebook" href="http://www.facebook.com/falconmasters"><span class="hidden">Facebook</span></a>
                     <a class="ion-social-twitter" href="https://twitter.com/login?lang=es"><span class="hidden">Twitter</span></a>
@@ -96,7 +99,9 @@
         
             
         </ul>
-
+        <script src="js/fechahora.js"></script>
+        <p id="reloj" style="font-size:20px;"></p>
+   
     </footer>
 
  
