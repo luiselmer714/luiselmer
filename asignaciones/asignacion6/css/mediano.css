@@ -1,0 +1,35 @@
+@media screen and (  max-width: 1024px ) 
+{
+
+	header nav {
+		
+		max-width:100%;
+		
+		margin:20px auto;
+	}
+	
+	
+	header nav ul li a {
+		
+		
+		padding: 1px;
+	}
+	
+	 
+		.foote ul li a {
+			
+		
+			padding: 20px 52px;
+			
+		}
+	 
+	
+	
+		body {
+		
+			 padding-left:  10%;
+			 padding-right: 10%;
+			
+		  }
+
+}

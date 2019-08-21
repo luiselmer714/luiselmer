@@ -1,0 +1,203 @@
+
+
+
+ *{margin:0;padding:0}
+ body{font-family:’Open Sans’,’sans-serif’;font-size:12px;font-weight:300}
+ .title{text-align:center;padding:20px;font-size:30px;}
+ .galeria{width:980px;margin:0
+auto;overflow:hidden;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap}.galeria
+li{position:relative;width:33.3%;float:left;padding:0.625rem;display:-webkit-flex;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:width 0.3s ease-out;transition:width 0.3s ease-out}.galeria li
+.caja{position:relative;padding:6px
+6px 20px 6px;overflow:hidden}.imagen{display:block;width:100%;margin-bottom:10px}.galeria li
+img{width:100%;height:auto}.galeria li
+h3{margin-bottom:6px;font-size:17px;font-weight:bold;line-height:normal}.galeria
+p{color:#000000; font-size:17px; }.galeria li
+time{position:absolute;bottom:0;left:0;width:100%;padding:6px;font-weight:400;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box}.caja{border:1px
+solid #ccc}
+@media screen and (max-width:992px)
+{.galeria{width:auto}}
+
+ 
+
+
+
+.imagen:hover img {
+opacity: 0.2;
+}
+
+.imagen {
+background: #3f839e  ;
+}
+
+
+
+
+
+
+
+
+header {
+	width: 100%;
+}
+
+header nav {
+	background:#05263a;
+	z-index:1000;
+	max-width: 100%;
+    margin:0%;
+}
+
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+
+header nav ul li:hover {
+	background:#2816fe;
+}
+
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+	font-size: 20px;
+}
+
+header nav ul li a span {
+	margin-right:10px;
+}
+
+header nav ul li:hover .children {
+	display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	background:#011826;
+	position: absolute;
+	width: 90%;
+	z-index:1000;
+}
+
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+header nav ul li .children li a {
+	display: block;
+}
+
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+@media screen and (  max-width: 850px ) 
+{
+	.galeria
+li{width:50%}
+
+	header nav {
+		
+		max-width:100%;
+		
+		margin:20px auto;
+	}
+	
+	
+	header nav ul li a {
+		
+		
+		padding: 1px;
+	}
+	
+	
+
+}
+@media screen and (max-width: 700px) {
+	
+	.galeria
+	li{width:100%}
+
+
+	.menu_bar {
+		display:block;
+		width:98%;
+		position: fixed;
+		top:0;
+        background:#05263a;
+       
+	}
+
+	.menu_bar .ion-navicon-round {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 100px;
+       
+        
+        text-decoration: none;
+        
+        font-size: 30px;
+        color : #fff;
+	}
+
+	
+	header nav {
+		width: 80%;
+		height: calc(70% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+
+	header nav ul li a {
+        display: block;
+        font-size: 200%;
+	}
+
+	header nav ul li:hover .children {
+		display: none;
+	}
+
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+
+	header nav ul li .caret {
+		float: right;
+    }
+
+
+
+
+
+}
