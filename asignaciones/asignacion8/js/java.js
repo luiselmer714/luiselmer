@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
-
-    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/estyle.css">
-    <script src="archivi.json"></script>
-</head>
-<body>
-    
-
-    <header>
-<h1>jbcsdibkj</h1>
-    </header>
-
-    <section>
-
-    </section>
-
-
-    <script>
 
     var header = document.querySelector('header');
     var section = document.querySelector('section');
@@ -73,8 +48,4 @@
         section.appendChild(myArticle);
       }
     }
-    </script>
 
-     </script>
-</body>
-</html>
