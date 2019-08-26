@@ -2,7 +2,7 @@
 
     
     var section = document.querySelector('section');
-    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+    var requestURL = 'https://luiselmer714.github.io/luiselmer/asignaciones/asignacion9/js/gastronomia.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'text';
