@@ -6,13 +6,13 @@
         "name" : "Chambergos",
         
         "Descripcion" : " más que franquicias son tradiciones muy antiguas de la ciudad de Potosí. Se hacen desde la época colonial y han trascendido hasta hoy... si deseas más detalles puedes enviarme un correo."
-        "active" : true,
+      
       },
       {
         "name" : "Thayas",
        
         "Descripcion" : "Postre tradicional Potosino, que se elabora durante el invierno teniendo variedad como ser camote, oca, pito de cebada y leche, su preparación con camote, se lava el camote se hace coser en agua, luego se escurre para ser pelado, se muele o desmenuza con un tenedor, se endulza ha gusto y luego se pone en un molde de uno y medio centímetro de alto. Para que se congele se coloca a la interfiere preferentemente en la altura, al día siguiente muy temprano se pinta con ayrampo. Teniendo la misma preparación el de oca, pito y leche."
-        "active" : true,
+      
       },
       {
         "name" : "Puchero",
