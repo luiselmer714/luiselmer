@@ -10,14 +10,12 @@
     request.onload = function() {
       var superHeroesText = request.response;
       var superHeroes = JSON.parse(superHeroesText);
-      populateHeader(superHeroes);
+  
       showHeroes(superHeroes);
     }
   
     function showHeroes(jsonObj) {
-        var myH1 = document.createElement('h1');
-        myH1.textContent = jsonObj['Gastronomia'];
-        section.appendChild(myH1);
+       
       
 
 
@@ -27,7 +25,7 @@
         var myH2 = document.createElement('h2');
         
         myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Descripcion: ' + ComidasGastronomicas[i].Descripcicon;
+        myPara1.textContent = 'Descripcion: ' + ComidasGastronomicas[i].Descripcion;
       
       
         myArticle.appendChild(myH2);
