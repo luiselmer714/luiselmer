@@ -1,0 +1,30 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  }
+  h1, h2 {
+    font-family: 'Faster One';
+  }
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  /* section styles */
+  section article {
+    width: 25%;
+    float: left;
+  }
+  
+  section p {
+    margin: 5px 0;
+  }
+  
+  section ul {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+  }
