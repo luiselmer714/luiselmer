@@ -14,13 +14,12 @@
     }
   
     function showHeroes(jsonObj) {
-        var myH1 = document.createElement('h1');
-        myH1.textContent = jsonObj['Gastronomia'];
-        section.appendChild(myH1);
       
-
-
+    
       var ComidasGastronomicas = jsonObj['ComidasGastronomicas'];
+      var myH1 = document.createElement('h1');
+      myH1.textContent = jsonObj['Gastronomia'];
+      section.appendChild(myH1);
       for(var i = 0; i < ComidasGastronomicas.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
@@ -35,3 +34,7 @@
       }
     }
 
+
+
+ 
+    
