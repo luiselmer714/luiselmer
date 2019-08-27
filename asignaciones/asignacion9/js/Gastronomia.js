@@ -6,7 +6,7 @@
     
  
     var section = document.querySelector('section');
-    var footer=document.querySelector('footer');
+    
     var requestURL = 'https://luiselmer714.github.io/luiselmer/asignaciones/asignacion9/js/gastronomia.json';
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -54,25 +54,3 @@
     }
 
 
-
-    function masvisitados(jsonObj) {
-      var heroes = jsonObj['SitiosVisitados'];
-      for(var i = 0; i < heroes.length; i++) {
-     
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-        var myPara3 = document.createElement('p');
-        var myList = document.createElement('ul');
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Descripcion: ' + heroes[i].Descripcion;
-        myPara2.textContent = 'Age: ' + heroes[i].age;
-      
-        footer.appendChild(myH2);
-        footer.appendChild(myPara1);
-        footer.appendChild(myPara2);
-       
-        
-        footer.appendChild(myArticle);
-      }
-    }
