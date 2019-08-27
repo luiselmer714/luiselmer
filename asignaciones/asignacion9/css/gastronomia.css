@@ -28,3 +28,24 @@ html {
     letter-spacing: -5px;
     margin-bottom: 10px;
   }
+
+
+footer
+{
+float: left;
+margin-left:  5%;
+}
+  footer article {
+    width: 31%;
+    float: left;
+    margin-right: 1%;
+  }
+  
+   footer p {
+    margin: 5px 0;
+    margin-right: 20%;
+  }
+  
+  footer ul {
+    margin-top: 0;
+  }
