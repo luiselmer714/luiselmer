@@ -14,100 +14,87 @@
     request.responseType = 'text';
     request.send();
     request.onload = function() {
-      var superHeroesText = request.response;
-      var superHeroes = JSON.parse(superHeroesText);
-      populateHeader(superHeroes);
-      gastronomia(superHeroes);
-      titulo(superHeroes);
-      masvisitados(superHeroes);
-      titulofestividad(superHeroes);
-      festividad(superHeroes);
+      var turista = request.response;
+      var sitiosturisticos = JSON.parse(turista);
+      populateHeader(sitiosturisticos);
+      gastronomia(sitiosturisticos);
+      titulo(sitiosturisticos);
+      masvisitados(sitiosturisticos);
+      titulofestividad(sitiosturisticos);
+      festividad(sitiosturisticos);
+      
     }
   
 
     function populateHeader(jsonObj) {
-      var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['Gastronomia'];
-      section.appendChild(myH1);
+      var mititulo = document.createElement('h1');
+      mititulo.textContent = jsonObj['Gastronomia'];
+      section.appendChild(mititulo);
      
-      
     }
 
 
     function gastronomia(jsonObj) {
-      var heroes = jsonObj['ComidasGastronomicas'];
-      for(var i = 0; i < heroes.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-        var myPara2 = document.createElement('p');
-     
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Descripcion: ' + heroes[i].Descripcion;
-        myPara2.textContent = 'Age: ' + heroes[i].age;
-      
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
-        myArticle.appendChild(myPara2);
-       
-        
-        section.appendChild(myArticle);
+      var descripc = jsonObj['ComidasGastronomicas'];
+      for(var i = 0; i < descripc.length; i++) {
+        var miArticulo = document.createElement('article');
+        var nombre = document.createElement('h2');
+        var Descripcio = document.createElement('p');
+        nombre.textContent = descripc[i].name;
+        Descripcio.textContent = 'Descripcion: ' + descripc[i].Descripcion;
+        miArticulo.appendChild(nombre);
+        miArticulo.appendChild(Descripcio); 
+        section.appendChild(miArticulo);
       }
     }
 
     
     function titulo(jsonObj) {
-      var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['sitiosmasvisitados'];
-    footer.appendChild(myH1);
+      var mititulo = document.createElement('h1');
+      mititulo.textContent = jsonObj['sitiosmasvisitados'];
+    footer.appendChild(mititulo);
      
       
     }
 
 
     function masvisitados(jsonObj) {
-      var heroes = jsonObj['SitiosVisitados'];
-      for(var i = 0; i < heroes.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
+      var descripc  = jsonObj['SitiosVisitados'];
+      for(var i = 0; i < descripc .length; i++) {
+        var miArticulo = document.createElement('article');
+        var titulo = document.createElement('h2');
+        var descrip = document.createElement('p');
       
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Descripcion: ' + heroes[i].Descripcion;
+        titulo.textContent = descripc [i].name;
+        descrip.textContent = 'Descripcion: ' + descripc [i].Descripcion;
       
       
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
+        miArticulo.appendChild(titulo);
+        miArticulo.appendChild(descrip);
        
        
         
-        footer.appendChild(myArticle);
+        footer.appendChild(miArticulo);
       }
     }
     function titulofestividad(jsonObj) {
-      var myH1 = document.createElement('h1');
-      myH1.textContent = jsonObj['festividad'];
-    aside.appendChild(myH1);
+      var mititulo = document.createElement('h1');
+      mititulo.textContent = jsonObj['festividad'];
+    aside.appendChild(mititulo);
      
       
     }
 
     function festividad(jsonObj) {
-      var heroes = jsonObj['festivida'];
-      for(var i = 0; i < heroes.length; i++) {
-        var myArticle = document.createElement('article');
-        var myH2 = document.createElement('h2');
-        var myPara1 = document.createElement('p');
-      
-        myH2.textContent = heroes[i].name;
-        myPara1.textContent = 'Descripcion: ' + heroes[i].Descripcion;
-      
-      
-        myArticle.appendChild(myH2);
-        myArticle.appendChild(myPara1);
-       
-       
-        
-        aside.appendChild(myArticle);
+      var descripc  = jsonObj['festivida'];
+      for(var i = 0; i < descripc .length; i++) {
+        var miArticulo = document.createElement('article');
+        var nombre = document.createElement('h2');
+        var Descripcio = document.createElement('p');
+        nombre.textContent = descripc [i].name;
+        Descripcio.textContent = 'Descripcion: ' + descripc [i].Descripcion;
+        miArticulo.appendChild(nombre);
+        miArticulo.appendChild(Descripcio);
+        aside.appendChild(miArticulo);
       }
     }

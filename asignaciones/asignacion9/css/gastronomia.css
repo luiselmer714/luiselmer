@@ -61,6 +61,7 @@ margin-left:  5%;
     width: 60%;
     float: left;
     margin-right: 1%;
+    
   }
   
    aside p {
@@ -70,4 +71,5 @@ margin-left:  5%;
   
   aside ul {
     margin-top: 0;
+    position:absolute;bottom:0;left:0;width:100%;padding:6px;font-weight:400;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box
   }

@@ -2,7 +2,7 @@
 
 
  *{margin:0;padding:0}
- body{font-family:’Open Sans’,’sans-serif’;font-size:12px;font-weight:300}
+ body{font-family:’Open Sans’,’arial’;font-size:12px;font-weight:300}
  .title{text-align:center;padding:20px;font-size:30px;}
  .galeria{width:980px;margin:0
 auto;overflow:hidden;display:-webkit-flex;display:flex;-webkit-flex-flow:row wrap;flex-flow:row wrap}.galeria
