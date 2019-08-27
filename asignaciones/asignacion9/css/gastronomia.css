@@ -49,3 +49,25 @@ margin-left:  5%;
   footer ul {
     margin-top: 0;
   }
+
+
+
+  aside
+{
+float: left;
+margin-left:  5%;
+}
+  aside article {
+    width: 60%;
+    float: left;
+    margin-right: 1%;
+  }
+  
+   aside p {
+    margin: 5px 0;
+   
+  }
+  
+  aside ul {
+    margin-top: 0;
+  }

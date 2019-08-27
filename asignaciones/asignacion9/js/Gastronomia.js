@@ -6,6 +6,7 @@
     
  
     var section = document.querySelector('section');
+    var aside=document.querySelector('aside');
     var footer=document.querySelector('footer');
     var requestURL = 'https://luiselmer714.github.io/luiselmer/asignaciones/asignacion9/js/gastronomia.json';
     var request = new XMLHttpRequest();
@@ -19,7 +20,7 @@
       gastronomia(superHeroes);
       titulo(superHeroes);
       masvisitados(superHeroes);
-      titulofestividad();
+      titulofestividad(superHeroes);
       festividad(superHeroes);
     }
   
@@ -55,7 +56,7 @@
     }
 
     
-    function titulofestividad(jsonObj) {
+    function titulo(jsonObj) {
       var myH1 = document.createElement('h1');
       myH1.textContent = jsonObj['sitiosmasvisitados'];
     footer.appendChild(myH1);
@@ -83,10 +84,10 @@
         footer.appendChild(myArticle);
       }
     }
-    function titulo(jsonObj) {
+    function titulofestividad(jsonObj) {
       var myH1 = document.createElement('h1');
       myH1.textContent = jsonObj['festividad'];
-    footer.appendChild(myH1);
+    aside.appendChild(myH1);
      
       
     }
@@ -107,6 +108,6 @@
        
        
         
-        footer.appendChild(myArticle);
+        aside.appendChild(myArticle);
       }
     }
