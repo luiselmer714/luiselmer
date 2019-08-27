@@ -50,8 +50,20 @@
        
       }
      
-    ]
+    ],
+    "festividad" : "Festividad",
+    "activ" : true,
+    "festivida":
+    [
+      {
+        "name" : "Fiesta en Toro Toro del Tata Santiago",
+        
+        "Descripcion" : " La fiesta religiosa de Santiago acoge a miles de creyentes en diversos lugares donde se lo considera patrono. Uno de estos sitios es Toro Toro, situado en la provincia Charcas en el Norte Potosí, que al igual que en muchos lugares se realiza una serie de actividades durante tres días.   El primer día, 24 de julio, se lleva a cabo la velada, después de una misa, fuegos pirotécnicos cerca de la casa de los pasantes y en la plaza. De la misma manera esta víspera es realizada en Santiago de Compostela, “El fuego del apóstol”, se denomina a esta actividad que también se luce con los mejores fuegos artificiales. El día 25, al medio día, se efectúa la liturgia solemne en la iglesia de Toro Toro, a la misma hora, esta misa es efectuada en varios lugares de mundo"
+      
+      }
     
+     
+    ]
     
     
   }

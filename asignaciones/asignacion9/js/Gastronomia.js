@@ -19,7 +19,8 @@
       gastronomia(superHeroes);
       titulo(superHeroes);
       masvisitados(superHeroes);
-      
+      titulofestividad();
+      festividad(superHeroes);
     }
   
 
@@ -65,6 +66,33 @@
 
     function masvisitados(jsonObj) {
       var heroes = jsonObj['SitiosVisitados'];
+      for(var i = 0; i < heroes.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+      
+        myH2.textContent = heroes[i].name;
+        myPara1.textContent = 'Descripcion: ' + heroes[i].Descripcion;
+      
+      
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+       
+       
+        
+        footer.appendChild(myArticle);
+      }
+    }
+    function titulo(jsonObj) {
+      var myH1 = document.createElement('h1');
+      myH1.textContent = jsonObj['festividad'];
+    footer.appendChild(myH1);
+     
+      
+    }
+
+    function festividad(jsonObj) {
+      var heroes = jsonObj['festivida'];
       for(var i = 0; i < heroes.length; i++) {
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
