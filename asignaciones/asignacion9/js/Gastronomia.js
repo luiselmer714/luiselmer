@@ -55,7 +55,7 @@
     }
 
     
-    function titulo(jsonObj) {
+    function titulofestividad(jsonObj) {
       var myH1 = document.createElement('h1');
       myH1.textContent = jsonObj['sitiosmasvisitados'];
     footer.appendChild(myH1);
