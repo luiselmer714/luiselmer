@@ -24,7 +24,7 @@ weatherRequest.send ();
  temp =weatherData.main.temp;
 
  var valNum = parseInt(temp);
- document.getElementById("temperature").innerHTML = (valNum-32) / 1.8;
+ document.getElementById("temperature").innerHTML = (((valNum-32) / 1.8).toFixed(2));
  loc = document.getElementById("location").innerHTML=weatherData.main.loc;
  icon = document.getElementById("icon");
  humidity = document.getElementById("humidity").innerHTML=weatherData.main.humidity;
