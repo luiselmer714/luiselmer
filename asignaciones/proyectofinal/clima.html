@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+    <link rel="StyleSheet" href="css/galeria.css"  type="text/css"> 
+    <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script src="js/movimiento.js"></script>
+    <link rel="StyleSheet" href="css/clima.css"  type="text/css">
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+
+        <header>
+                <div class="menu_bar">
+                    <a href="#" class="ion-navicon-round" > <ion-icon name="menu"></ion-icon>Menú</a>
+                   
+                </div>
+             
+                    <nav>
+                             
+                        <ul>
+                            <li> <img src="imagenes/fotologo.PNG" alt="Smiley face" width="150" height="150">
+                            <li><a href="layout.html"><span class="icon-house"></span>Inicio</a></li>
+                      
+                            <li class="submenu">
+                                <a href="#"><span class="icon-rocket"></span>Informacion<span class="caret icon-arrow-down6"></span></a>
+                                <ul class="children">
+                                    <li><a href="gastronomia.html">Los lugares mas visitados <span class="icon-dot"></span></a></li>
+                                    <li><a href="clima.html">El clima actual <span class="icon-dot"></span></a></li>
+                                    <li><a href="gastronomia.html">Gastronomia <span class="icon-dot"></span></a></li>
+                                    <li><a href="gastronomia.html">Festividad  <span class="icon-dot"></span></a></li>
+                                </ul>
+                            </li>
+                          
+                            <li class="submenu">
+                                    <a href="#"><span class="icon-rocket"></span>Lugares<span class="caret icon-arrow-down6"></span></a>
+                                    <ul class="children">
+                                        <li><a href="http://sernap.gob.bo/torotoro/atractivos-turisticos/">Torotoro <span class="icon-dot"></span></a></li>
+                                        <li><a href="https://www.boliviaentusmanos.com/turismo/cochabamba.html">Cochabamba <span class="icon-dot"></span></a></li>
+                                   
+                                    </ul>
+                                </li>
+                            <li><a href="contacto.html"><span class="icon-mail"></span>Contacto</a></li>
+                          
+                            <li><a href="galeria.html"><span class="icon-mail"></span>Galeria</a></li>
+                         
+                        </ul>
+                    </nav>
+                </header>
+
+
+    <h1>Tiempo meteorologico</h1>
+<p>The current temperature in Preston, Idaho is <span id="cc-temp"></span>&deg; F <img
+id="cc-img"></p>
+<div class="weather-app">
+    <div class="left">
+  <div class="temperature"><span id="temperature">0</span>&deg;</div> 
+  <div class="location"><span id="locatio">Potosi</span></div>
+    </div>	
+    <div class="right">
+  <div class="top">
+    <img id="icon" width="75px" src="imagenes/codes/800.png" />
+  </div>
+
+    <div class="bottom">
+    
+    <div class="humidity">
+      <img src="imagenes/humidity.png" height="16px" />
+      <span id="humidity">0</span>%
+    </div>
+    
+    <div class="wind">
+      <span id="wind">1014.56 </span> hpa <span id="direction">N</span>
+    </div>
+    
+  </div>
+    </div>
+  </div>
+<script src="js/clima.js"></script>
+</body>
+</html>
